@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";@charset "ISO-8859-1";
+
+#barra {
+	z-index: 4;
+}
+
+.perfil {
+	display: flex;
+	margin-top: 15px;
+	
+}
+
+.perfil-data {
+	width: 350px;
+	text-align: center;
+}
+
+.data {
+	background-color:#80ff80;
+	width: 450px;
+	border-radius:8px;
+	text-align: center;
+	height: 30px;
+}
+.usuarioPerfilTitle{
+	align-items:center;
+	display:flex;
+	gap:30px;
+	
+}
+
+.separador{
+	background-color: #80ff80;
+	height: 14px;
+	widows: 500px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	
+}
+.imagenPerfil{
+	width: 170px;
+	height: 170px;
+	border-radius: 200px;
+}
+.slidernav{
+	height: 100%;
+	width: 290px;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background: #ea899a;
+	padding-top:20px;
+	z-index: 0;
+}
+.slidernav a{
+	margin-top:20px;
+	padding:16px;
+	text-decoration:none;
+	font-size:20px;
+	color: black;
+	display:block;
+	text-align: justify;	
+}
+.slidernav a:hover {
+  background-color: #ea899a;
+  color: white;
+}
+
+/* Cambiar el cursor del mouse a un puntero cuando se coloca sobre un elemento */
+a:hover {
+  cursor: pointer;
+}
+
+.slidernav i{
+	margin-right: 12px;
+}
+.contenido{
+	width: 925px;
+	margin-left:350px; 
+	
+}
+
+.imagenLogo{
+	width: 40px;
+	border-radius: 50px;
+	margin-right: 10px
+	
+}
+
+.navbar-brand{
+	font-family:inherit;
+}
